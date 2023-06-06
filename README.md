@@ -1,4 +1,4 @@
-# oracle-university-download
+# ou-download
 Simple script to download oracle university student guide files.
 
 ## The following package is needed to build the pdf
