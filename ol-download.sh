@@ -8,7 +8,8 @@ book_id="948288928" # insert your book_id here. this can be found on referer url
 sg_id="S105665GC20_sg" #paste your sg_id here. the systax is mainly like as : id_sg. you can find it on referer url.
 referer="https://learning.oracle.com/secure_content_v2/ohr/media/948288928/V1/S105665GC20_sg/mobile/index.html" #paste your referer url here.
 i=1 # Staring with page 1
-while [ $i -le 209 ] # run the loop till the number of pages
+totalpages=209  # Insert the total number of pages of the book here.
+while [ $i -le $totalpages ] # run the loop till the number of pages
 do
 curl -H 'authority: learning.oracle.com' \
   -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"' \
